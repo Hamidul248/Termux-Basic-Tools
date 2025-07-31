@@ -7,11 +7,6 @@ import time
 
 os.system("clear")
 
-os.system('apt update')
-os.system('apt upgrade')
-print('\033[1;33m')
-os.system('pkg install python')
-os.system('pkg install python2')
 print('\n\n')
 
 ab= "		\033[1;32mSystem Loaded....."
