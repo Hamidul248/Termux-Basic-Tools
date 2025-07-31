@@ -2,7 +2,7 @@
 It’s a simple tool to install basic package automatically in Termux
 
 # COMMANDS 🔰
-https://github.com/Hamidul248/Termux-Basic-Tools.git
+https://github.com/Hamidul248/Termux-Basic-Tools
 
 cd Termux-Basic-Tools
 
