@@ -1,0 +1,95 @@
+#Tools Make
+
+
+import os
+import sys
+import time
+
+os.system("clear")
+
+os.system('apt update')
+os.system('apt upgrade')
+print('\033[1;33m')
+os.system('pkg install python')
+os.system('pkg install python2')
+print('\n\n')
+
+ab= "		\033[1;32mSystem Loaded....."
+
+for c in ab:
+	sys.stdout.write(c)
+	sys.stdout.flush()
+	time.sleep(0.1)
+
+os.system("clear")
+print('\n\n\n')
+time.sleep(2)
+
+ab= "		\033[1;33mSuccessfully  Loaded..... \n\033[1;0m"
+
+for c in ab:
+	sys.stdout.write(c)
+	sys.stdout.flush()
+	time.sleep(0.1)
+	
+print('\n')
+
+name= input('		\033[1;35mYour Name: ')
+
+ab = "		Hey " +name+", Be Ethical....."
+
+for c in ab:
+	sys.stdout.write(c)
+	sys.stdout.flush()
+	time.sleep(0.1)
+	
+print('\n\n')
+time.sleep(2)
+
+print("""
+\033[1;36m==================================================
+\033[1;34m
+		
+  /$$$$$$  /$$$$$$$$ /$$       /$$$$$$$ 
+ /$$__  $$|__  $$__/| $$      | $$__  $$
+| $$  \\__/   | $$   | $$      | $$  \\ $$
+|  $$$$$$    | $$   | $$      | $$$$$$$/
+ \\____  $$   | $$   | $$      | $$____/ 
+ /$$  \\ $$   | $$   | $$      | $$      
+|  $$$$$$/   | $$   | $$$$$$$$| $$      
+ \\______/    |__/   |________/|__/                             
+\033[1;36m===================================================
+\033[1;31mOwner	: STLP TEAM MEMBER
+GitHub	: Someone 
+Facebook: Someone
+Use only education purposes 
+\033[1;36m=================================================
+
+""")
+
+print('\033[1;32m')
+
+os.system('pkg install git')
+print('\033[1;34m')
+os.system('pkg install requests')
+os.system('pkg install golang')
+os.system('pkg install perl')
+print('\033[1;35m')
+os.system('pkg install python3')
+os.system('pkg install nodejs')
+os.system('pkg install wget')
+os.system('pkg install zip')
+print('\033[1;36m')
+os.system('pkg install nano')
+os.system('pkg install python')
+os.system('pkg install php')
+os.system('pkg install bash')
+os.system('pip install requests bs4')
+os.system('pip install rich')
+os.system('pip install mechanize')
+print('\033[1;37m')
+os.system('pip2 install mechanize')
+os.system('pkg install pycurl')
+print('\033[1;31m==============================\033[1;0m')
+
+print('\n\033[1;102m\033[1;31m		All Command Successful Install')
